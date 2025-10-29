@@ -1,0 +1,112 @@
+{
+    "demographics" : {
+        "DataDictionary_B": "demographics",
+        "MeasurementToolMetadata": {
+            "Description": "General demographic information."
+        }
+    },
+    "covid_screen" : {
+        "DataDictionary_B": "modified_covid_rehab_screen",
+        "MeasurementToolMetadata": {
+            "Description": "Screening to characterize previous COVID infections, recovery, and associated symptoms."
+        }
+    },
+    "compass_31" : {
+        "DataDictionary_B": "compass31",
+        "MeasurementToolMetadata": {
+            "Description": "Composite Autonomic Symptom Score-31 v.TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "apathy_motivation_index" : {
+        "DataDictionary_B": "apathy_motivation_index",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "breathlessness_catastrophising" : {
+        "DataDictionary_B": "breathlessness_catastrophising_questionnaire",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "dyspnoea" : {
+        "DataDictionary_B": "dyspnoea12",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "fatigue_severity_scale" : {
+        "DataDictionary_B": "fatigue_severity_scale",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "patient_health" : {
+        "DataDictionary_B": ["phq15","phqsads_anxiety","patient_health_questionnaire_9"],
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "gad_7" : {
+        "DataDictionary_B": "generalized_anxiety_disorder_7_item_gad7_scale_sco",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "cognitive_failures" : {
+        "DataDictionary_B": "cognitive_failures_questionnaire",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "pss_10" : {
+        "DataDictionary_B": "perceived_stress_scale_pss10",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "rand_36" : {
+        "DataDictionary_B": "rand_36_item_sf_health_survey_instrument_version_1",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "clinical_frailty_scale" : {
+        "DataDictionary_B": "clinical_frailty_scale",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "responses_to_hormonal_medication" : {
+        "DataDictionary_B": "responses_to_hormonal_medication",
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "reproductive_health" : {
+        "DataDictionary_B": ["reproductive_health_menstruation","hormonal_contraception","edinburgh_postnatal_depression_scale_epds"],
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    },
+    "sleep_metrics" : {
+        "DataDictionary_B": ["stopbang","psqi"],
+        "MeasurementToolMetadata": {
+            "Description": "TO BE ADDED",
+            "TermURL": "TO BE ADDED"
+        }
+    }
+}

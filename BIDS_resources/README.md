@@ -13,3 +13,4 @@ Some specific principles for working with physiological data in BIDS format can 
 For converting files to BIDS, a useful Python tool is [phys2bids](https://phys2bids.readthedocs.io/en/latest/), which can convert .acq files directly to the appropriate .tsv format. This tool also allows the user to set up a heuristic file to automatically populate the accompanying .json file. However, for our study, we propose to manually populate the .json file at scan time, starting from several pre-filled study templates. This will allow us to  adjusting these files with specific settings and observations which may differ from scan to scan. You can find the template .json files in this directory (file names to be added).
 
 # Using BIDS with derivatives
+(to be added)

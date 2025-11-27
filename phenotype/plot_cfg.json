@@ -1,0 +1,86 @@
+{
+    "breathlessness" : {
+        "PlotTitle": "Breathlessness",
+        "PlotXLabel": "Severity of breathlessness, with 0 being not breathless at all, and 10 being extremely breathless",
+        "PlotType": "violin",
+        "LevelsToExclude": 11,
+        "Variables": {
+            "rest_current": "At rest? (now)",
+            "rest_precovid": "default",
+            "dressing_current": "default",
+            "bdressing_precovid": "default",
+            "stairs_current":"default",
+            "stairs_precovid":"default"
+
+        }
+    },
+    "ot_severity" : {
+        "PlotTitle": "Orthostatic Tolerance",
+        "PlotXLabel": "Frequency of orthostatic symptoms, with 1 being rare and 4 being almost always /n Severity of orthostatic intolerance, with 0 being less severe, and 10 being most severe",
+        "PlotType": "violin",
+        "Variables": {
+            "current": "default",
+            "precovid": "default",
+            "ot_severity_current": "Now",
+            "ot_severity_precovid": "default",
+            "ot_symptom_change": "default"
+        }
+    },
+    "palplitations" : {
+        "PlotTitle": "Palpitations",
+        "PlotXLabel": "Palpitations:  On a scale of 0 (less severe) to 10 (more severe)",
+        "PlotType": "violin",
+        "Variables": {
+            "palpitations_severity_current": "default",
+            "palpitations_severity_precovid": "default"
+        }
+    },
+    "sleep_quality" : {
+        "PlotTitle": "Sleep Quality",
+        "PlotXLabel": "How satisfied about the quality of your sleep overall?  (0 means not satisfied at all, 10 means completely satisfied)",
+        "PlotType": "violin",
+        "Variables": {
+            "sleep_quality_current": "default",
+            "sleep_quality_precovid": "default",
+            "sleepiness_current": "Now",
+            "sleepiness_precovid": "default"
+        }
+    },
+    "complications" : {
+        "PlotTitle": "Severity of Complications Developed",
+        "PlotXLabel": "Scale from 0 (less severe) to 10 (more severe)",
+        "PlotType": "violin",
+        "Variables": {
+            "laryngeal_complications_severity": "default",
+            "voice_complications_severity": "default",
+            "swallowing_complications_severity": "Now",
+            "nutrition_complications_severity": "default"
+        }
+    },
+    "ability" : {
+        "PlotTitle": "Mobility, Fatigue, Pain, Cognition, and Activities",
+        "PlotXLabel": "Scale from 0 (less severe) to 10 (more severe)",
+        "PlotType": "violin",
+        "Variables": {
+            "mobility_severity_current": "default",
+            "mobility_severity_precovid": "default",
+            "fatigue_severity_current": "Now",
+            "fatigue_severity_precovid": "default",
+            "pain_severity_current": "default",
+            "pain_severity_precovid": "default",
+            "cognition_severity_current": "default",
+            "cognition_severity_precovid": "default",
+            "activities_severity_current": "default",
+            "activities_severity_precovid": "default"
+        }
+    },
+    "selfrated_health" : {
+        "PlotTitle": "Self-Rated Health",
+        "PlotXLabel": "Scale from 0 (worst health imaginable) to 10 (best health imaginable)",
+        "PlotType": "violin",
+        "Variables": {
+            "selfrated_health_current": "default",
+            "selfrated_health_precovid": "default"
+        }
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "SamplingFrequency": 100.0,
+    "ConcurrenceGroup": "bids:physio_rest_fmri:sub-01/ses-01/func/sub-01_ses-01_task-rest_run-01_bold.nii.gz",
+    "StartTime": 0,
+    "Columns": ["Time", "Trigger", "PPG", "ECG-1", "ECG-2", "Ventilation", "EDA"],
+    "PhysioType": "specified",
+    "AcquisitionObservations": "Moves hands a lot, used alcoholic hand-gel before session, drank coffee, electricity fault around minute 24",
+    "SubjectPosition": "Supine",
+    "SoftwareModels": "Acqknowledge",
+    "SoftwareVersions": "5.0.4",
+    "Manufacturer": "Biopac",
+    "ManufacturerModelName": "MP160",
+    "DeviceSerialNumber": "1811A-0001F15",
+    "Time": {
+        "MeasureType": "Other", 
+        "Description": "Continuous measurement of time",
+        "Units": "s",
+        "Placement": "n/a"
+    },
+    "Trigger": {
+        "MeasureType": "Trigger", 
+        "Description": "Continuous measurement of the MR scanner trigger signal",
+        "Units": "mV",
+        "Placement": "n/a",
+        "ChannelManufacturersModelName": "TR100C"
+    },
+    "PPG": {
+        "MeasureType": "PPG", 
+        "Description": "Continuous pulse measurement",
+        "Units": "mV",
+        "Placement": "Middle finger right",
+        "ChannelManufacturersModelName": ["TSD200-MRI"],
+        "ChannelManufacturer": "Biopac",
+        "AmplifierSettings": {
+            "AmplifierManufacturersModelName": "PPG100C-MRI",
+            "AmplifierManufacturer": "Biopac",
+            "Filter": "off"
+        }
+    },
+    "ECG-1": {
+        "MeasureType": "ECG", 
+        "Description": "Continuous ECG measurement lead 1",
+        "Units": "mV",
+        "TermURL": "www.thephysio.url",
+        "Placement": "RA",
+        "ChannelManufacturersModelName": ["LEAD108C", "EL508"],
+        "ChannelManufacturer": "Biopac",
+        "AmplifierSettings": {
+            "AmplifierManufacturersModelName": "ECG100C-MRI",
+            "AmplifierManufacturer": "Biopac",
+            "Filter": "off"
+        }
+    },
+    "ECG-2": {
+        "MeasureType": "ECG", 
+        "Description": "Continuous ECG measurement lead 2",
+        "Units": "mV",
+        "Placement": "V4",
+        "ChannelManufacturersModelName": ["LEAD108C", "EL508"],
+        "ChannelManufacturer": "Biopac",
+        "AmplifierSettings": {
+            "AmplifierManufacturersModelName": "ECG100C-MRI",
+            "AmplifierManufacturer": "Biopac",
+            "Filter": "off"
+        }
+    },
+    "Ventilation": {
+        "MeasureType": "Ventilation",
+        "Description": "Continuous respiratory effort measurement belly",
+        "Units": "mV",
+        "Placement": "Upper abdomen",
+        "ChannelManufacturersModelName": "TSD221-MRI",
+        "ChannelManufacturer": "Biopac",
+        "AmplifierSettings": {
+            "AmplifierManufacturersModelName": "DA100C",
+            "AmplifierManufacturer": "Biopac",
+            "Filter": "off"
+        }
+    },
+    "EDA": {
+        "MeasureType": "EDA", 
+        "Description": "Continuous measurement of EDA",
+        "Units": "mV",
+        "Placement": "Feet, inner part",
+        "ChannelManufacturersModelName": ["LEAD108C", "EL509"],
+        "ChannelManufacturer": "Biopac",
+        "AmplifierSettings": {
+            "AmplifierManufacturersModelName": "EDA100C-MRI",
+            "AmplifierManufacturer": "Biopac",
+            "Filter": "off",
+            "Gain": 5
+        }
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "covid_screen" : {
+        "rename_variables": {
+            "VariableMap": {
+                "bdressing_precovid": "dressing_precovid"
+            }
+        },
+        "replace_levels": {
+            "LevelsToReplace": {
+            "11": {
+                "ReplaceInVariables": ["rest_current","rest_precovid","dressing_current","dressing_precovid","stairs_current","stairs_precovid"],
+                "ReplaceWith": "NaN"
+            },
+            "6": {
+                "ReplaceInVariables": "ot_symptom_change",
+                "ReplaceWith": "NaN"
+            }
+            }
+        },
+        "derivative_differences": null
+    }
+}

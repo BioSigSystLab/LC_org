@@ -1,2 +1,2 @@
 # LC
-Scripts for pre-processing and analyzing long covid (LC) data collection
+Scripts for BIDS conversion and general data organization of long covid (LC) project.
